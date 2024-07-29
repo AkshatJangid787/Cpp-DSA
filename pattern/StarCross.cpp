@@ -3,7 +3,7 @@ using namespace std;
 
 // only for odd n;
 
-void starPlus(int n)
+void starCross(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -20,6 +20,6 @@ int main()
 {
     int n;
     cin >> n;
-    starPlus(n);
+    starCross(n);
     return 0;
 }
